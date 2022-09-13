@@ -20,7 +20,7 @@
     "@storybook/addon-essentials": "6.5.10",
     "@storybook/addon-links": "6.5.10",
     "@storybook/builder-vite": "0.2.2",
-    "@storybook/react": "6.5.10",
+    "@storybook/react": "6.5.11",
     "@vitejs/plugin-react": "2.1.0",
     "eslint-config-doyourthing": "*",
     "serve": "14.0.1",
