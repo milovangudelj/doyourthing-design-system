@@ -1,0 +1,19 @@
+pull_request_rules:
+  - name: Auto-merge Renovate
+    conditions:
+      - author=renovate[bot]
+      - base=master
+      - "-merged"
+      - "-conflict"
+    actions:
+      merge:
+        method: rebase
+  - name: Auto-merge Dependabot
+    conditions:
+      - author=dependabot[bot]
+      - base=master
+      - "-merged"
+      - "-conflict"
+    actions:
+      merge:
+        method: rebase
