@@ -1,14 +1,14 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Story, Meta } from "@storybook/react";
 
 import { FormElement } from "@doyourthing/core";
 
 export default {
 	title: "Molecules/FormElement",
 	component: FormElement,
-} as ComponentMeta<typeof FormElement>;
+} as Meta<typeof FormElement>;
 
-const Template: ComponentStory<typeof FormElement> = (args: any) => (
+const Template: Story<typeof FormElement> = (args: any) => (
 	<FormElement {...args} />
 );
 

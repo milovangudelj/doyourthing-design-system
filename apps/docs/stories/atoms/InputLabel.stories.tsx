@@ -1,14 +1,14 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Story, Meta } from "@storybook/react";
 
 import { InputLabel } from "@doyourthing/core";
 
 export default {
 	title: "Atoms/InputLabel",
 	component: InputLabel,
-} as ComponentMeta<typeof InputLabel>;
+} as Meta<typeof InputLabel>;
 
-const Template: ComponentStory<typeof InputLabel> = (args: any) => (
+const Template: Story<typeof InputLabel> = (args: any) => (
 	<InputLabel {...args} />
 );
 

@@ -1,14 +1,14 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Story, Meta } from "@storybook/react";
 
 import { FormInput, FormInputProps } from "@doyourthing/core";
 
 export default {
 	title: "Atoms/FormInput",
 	component: FormInput,
-} as ComponentMeta<typeof FormInput>;
+} as Meta<typeof FormInput>;
 
-const Template: ComponentStory<typeof FormInput> = (args: FormInputProps) => (
+const Template: Story<typeof FormInput> = (args: FormInputProps) => (
 	<FormInput {...args} />
 );
 

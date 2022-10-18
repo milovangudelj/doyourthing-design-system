@@ -15,7 +15,7 @@ export const InputLabel = ({
 		<label
 			htmlFor={htmlFor}
 			className={cn(
-				"font-medium text-dark-he dark:text-light-he",
+				"text-dark-he dark:text-light-he font-medium",
 				className
 			)}
 		>

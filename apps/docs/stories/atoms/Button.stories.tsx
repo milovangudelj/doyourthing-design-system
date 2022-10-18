@@ -1,5 +1,5 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Story, Meta } from "@storybook/react";
 
 import { Button, ButtonProps } from "@doyourthing/core";
 import { DiamondsFour } from "phosphor-react";
@@ -8,13 +8,10 @@ import { DiamondsFour } from "phosphor-react";
 export default {
 	title: "Atoms/Button",
 	component: Button,
-} as ComponentMeta<typeof Button>;
+} as Meta<ButtonProps>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Button> = ({
-	color,
-	...props
-}: ButtonProps) => (
+const Template: Story<ButtonProps> = ({ color, ...props }: ButtonProps) => (
 	<div className="flex space-x-4">
 		<Button
 			color="primary"

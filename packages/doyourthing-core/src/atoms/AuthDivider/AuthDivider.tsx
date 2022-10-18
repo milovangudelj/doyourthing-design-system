@@ -18,7 +18,7 @@ export const AuthDivider = forwardRef<HTMLDivElement, DividerProps>(
 				{...props}
 			>
 				<div className="h-px w-full bg-zinc-300 dark:bg-zinc-700"></div>
-				<span className="mx-2 inline-block flex-none text-sm text-dark-le dark:text-light-le">
+				<span className="text-dark-le dark:text-light-le mx-2 inline-block flex-none text-sm">
 					or
 				</span>
 				<div className="h-px w-full bg-zinc-300 dark:bg-zinc-700"></div>

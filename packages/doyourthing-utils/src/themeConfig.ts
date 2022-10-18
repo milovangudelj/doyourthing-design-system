@@ -1,5 +1,8 @@
-const withOpacity = (variableName) => {
-	return ({ opacityValue }) => {
+import { Config } from "tailwindcss";
+import forms from "@tailwindcss/forms";
+
+const withOpacity = (variableName: string) => {
+	return ({ opacityValue }: { opacityValue: string }) => {
 		if (opacityValue !== undefined) {
 			return `rgba(var(${variableName}), ${opacityValue})`;
 		}
@@ -7,23 +10,22 @@ const withOpacity = (variableName) => {
 	};
 };
 
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+export const themeConfig: Config = {
 	content: ["./src/components/**/*.{js,jsx,ts,tsx}"],
 	darkMode: "class",
 	theme: {
 		colors: {
 			skin: {
-				900: withOpacity("--color-900"),
-				800: withOpacity("--color-800"),
-				700: withOpacity("--color-700"),
-				600: withOpacity("--color-600"),
-				500: withOpacity("--color-500"),
-				400: withOpacity("--color-400"),
-				300: withOpacity("--color-300"),
-				200: withOpacity("--color-200"),
-				100: withOpacity("--color-100"),
-				50: withOpacity("--color-50"),
+				900: withOpacity("--color-900") as any,
+				800: withOpacity("--color-800") as any,
+				700: withOpacity("--color-700") as any,
+				600: withOpacity("--color-600") as any,
+				500: withOpacity("--color-500") as any,
+				400: withOpacity("--color-400") as any,
+				300: withOpacity("--color-300") as any,
+				200: withOpacity("--color-200") as any,
+				100: withOpacity("--color-100") as any,
+				50: withOpacity("--color-50") as any,
 			},
 			primary: {
 				900: "#064C28",
@@ -101,8 +103,8 @@ module.exports = {
 		},
 		extend: {
 			fontFamily: {
-				sans: "'DM Sans', sans-serif",
-				mono: "'DM Mono', monospaced",
+				sans: ["'DM Sans'", "sans-serif"],
+				mono: ["'DM Mono'", "monospaced"],
 			},
 			backgroundImage: {
 				"unsplash-random":
@@ -110,5 +112,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require("@tailwindcss/forms")],
+	plugins: [forms],
 };

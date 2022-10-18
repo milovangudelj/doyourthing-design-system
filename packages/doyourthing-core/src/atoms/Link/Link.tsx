@@ -12,7 +12,7 @@ export const Link = forwardRef<HTMLAnchorElement, LinkProps>(
 				ref={ref}
 				className={cn(
 					{
-						"text-primary-500 underline transition hover:text-primary-400 active:text-primary-600":
+						"text-primary-500 hover:text-primary-400 active:text-primary-600 underline transition":
 							styled,
 					},
 					className

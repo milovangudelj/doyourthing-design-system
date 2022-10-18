@@ -25,7 +25,7 @@ export const EmailInput = forwardRef<HTMLInputElement, EmailInputProps>(
 				id={id}
 				placeholder={placeholder}
 				className={cn(
-					"w-full border-none bg-transparent py-2 px-3 text-dark-he ring-0 placeholder:text-dark-le focus:border-none focus:ring-0 dark:text-light-he dark:placeholder:text-light-le",
+					"text-dark-he placeholder:text-dark-le dark:text-light-he dark:placeholder:text-light-le w-full border-none bg-transparent py-2 px-3 ring-0 focus:border-none focus:ring-0",
 					className
 				)}
 				{...props}

@@ -1,19 +1,17 @@
 {
-	"extends": "@doyourthing/tsconfig/react-library.json",
-	"include": ["./src"],
+	"extends": "@tsconfig/recommended/tsconfig.json",
 	"compilerOptions": {
+		"jsx": "react-jsx",
+		"module": "ESNext",
 		"declaration": true,
 		"declarationDir": "./dist",
 		"sourceMap": true,
-
 		"outDir": "dist",
 		"moduleResolution": "node",
 		"allowSyntheticDefaultImports": true,
 		"emitDeclarationOnly": true
 	},
 	"exclude": [
-		"dist",
-		"build",
 		"node_modules",
 		"**/*.spec.ts*",
 		"**/*.test.ts*",

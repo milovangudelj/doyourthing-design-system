@@ -1,5 +1,15 @@
 {
-  "extends": "@doyourthing/tsconfig/react-library.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+	"extends": "@doyourthing/tsconfig/react-library.json",
+	"include": ["./src"],
+	"compilerOptions": {
+		"declaration": true,
+		"declarationDir": "./dist",
+		"sourceMap": true,
+
+		"outDir": "dist",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"emitDeclarationOnly": true
+	},
+	"exclude": ["dist", "build", "node_modules"]
 }

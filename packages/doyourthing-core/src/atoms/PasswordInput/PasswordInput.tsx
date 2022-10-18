@@ -35,7 +35,7 @@ export const PasswordInput = forwardRef<HTMLInputElement, PasswordInputProps>(
 					id={id}
 					placeholder={placeholder}
 					className={cn(
-						"w-full border-none bg-transparent py-2 pl-3 pr-0 text-dark-he ring-0 placeholder:text-dark-le focus:border-none focus:ring-0 dark:text-light-he dark:placeholder:text-light-le",
+						"text-dark-he placeholder:text-dark-le dark:text-light-he dark:placeholder:text-light-le w-full border-none bg-transparent py-2 pl-3 pr-0 ring-0 focus:border-none focus:ring-0",
 						className
 					)}
 					{...props}
@@ -43,7 +43,7 @@ export const PasswordInput = forwardRef<HTMLInputElement, PasswordInputProps>(
 				<button
 					type="button"
 					onClick={toggle}
-					className="p-2.5 text-dark-me transition hover:text-dark-he dark:text-light-me dark:hover:text-light-he"
+					className="text-dark-me hover:text-dark-he dark:text-light-me dark:hover:text-light-he p-2.5 transition"
 				>
 					{visible ? (
 						<Eye className="h-5 w-5" />

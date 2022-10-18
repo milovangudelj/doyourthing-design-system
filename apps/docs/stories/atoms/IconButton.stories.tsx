@@ -1,5 +1,5 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Story, Meta } from "@storybook/react";
 
 import { IconButton, IconButtonProps } from "@doyourthing/core";
 import { DiamondsFour } from "phosphor-react";
@@ -8,10 +8,10 @@ import { DiamondsFour } from "phosphor-react";
 export default {
 	title: "Atoms/IconButton",
 	component: IconButton,
-} as ComponentMeta<typeof IconButton>;
+} as Meta<typeof IconButton>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof IconButton> = ({
+const Template: Story<typeof IconButton> = ({
 	color,
 	...props
 }: IconButtonProps) => (

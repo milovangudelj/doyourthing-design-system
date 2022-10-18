@@ -2,6 +2,10 @@
 	"name": "eslint-config-doyourthing",
 	"version": "0.0.0",
 	"main": "index.js",
+	"scripts": {
+		"nodemod:list": "find . -name \"node_modules\" -type d -prune | xargs du -chs",
+		"nodemod:remove": "find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' +"
+	},
 	"license": "MIT",
 	"dependencies": {
 		"eslint-config-next": "^12.3.1",

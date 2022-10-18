@@ -33,7 +33,7 @@ export const FormInput = forwardRef<HTMLInputElement, FormInputProps>(
 		};
 
 		return (
-			<div className="form-input flex w-full items-center rounded border-zinc-300 bg-transparent p-0 transition focus-within:border-primary-500 focus-within:bg-zinc-800 focus-within:outline-none focus-within:ring-1 focus-within:ring-primary-500 hover:bg-zinc-800 dark:border-zinc-600 focus-within:dark:border-primary-400 focus-within:dark:ring-primary-400">
+			<div className="form-input focus-within:border-primary-500 focus-within:ring-primary-500 focus-within:dark:border-primary-400 focus-within:dark:ring-primary-400 flex w-full items-center rounded border-zinc-300 bg-transparent p-0 transition focus-within:bg-zinc-800 focus-within:outline-none focus-within:ring-1 hover:bg-zinc-800 dark:border-zinc-600">
 				<Suspense fallback={<EmailInput />}>{element[type]}</Suspense>
 			</div>
 		);

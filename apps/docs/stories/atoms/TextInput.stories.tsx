@@ -1,14 +1,14 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Story, Meta } from "@storybook/react";
 
 import { TextInput, TextInputProps } from "@doyourthing/core";
 
 export default {
 	title: "Atoms/FormInputs/TextInput",
 	component: TextInput,
-} as ComponentMeta<typeof TextInput>;
+} as Meta<typeof TextInput>;
 
-const Template: ComponentStory<typeof TextInput> = (args: TextInputProps) => (
+const Template: Story<typeof TextInput> = (args: TextInputProps) => (
 	<TextInput {...args} />
 );
 

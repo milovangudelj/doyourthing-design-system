@@ -1,5 +1,5 @@
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import { Story, Meta } from "@storybook/react";
 
 import { Link } from "@doyourthing/core";
 
@@ -7,10 +7,10 @@ import { Link } from "@doyourthing/core";
 export default {
 	title: "Atoms/Link",
 	component: Link,
-} as ComponentMeta<typeof Link>;
+} as Meta<typeof Link>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Link> = (args: any) => <Link {...args} />;
+const Template: Story<typeof Link> = (args: any) => <Link {...args} />;
 
 export const HelloWorld = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
