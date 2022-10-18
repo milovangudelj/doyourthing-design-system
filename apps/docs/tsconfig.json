@@ -1,5 +1,6 @@
 {
 	"extends": "@tsconfig/recommended/tsconfig.json",
+	"include": ["./stories"],
 	"compilerOptions": {
 		"jsx": "react-jsx",
 		"module": "ESNext",
@@ -11,10 +12,5 @@
 		"allowSyntheticDefaultImports": true,
 		"emitDeclarationOnly": true
 	},
-	"exclude": [
-		"node_modules",
-		"**/*.spec.ts*",
-		"**/*.test.ts*",
-		"**/*.stories.ts*"
-	]
+	"exclude": ["node_modules", "**/*.spec.ts*", "**/*.test.ts*"]
 }

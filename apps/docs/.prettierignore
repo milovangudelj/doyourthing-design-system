@@ -3,4 +3,3 @@ public/
 node_modules/
 coverage/
 .next/
-.storybook/

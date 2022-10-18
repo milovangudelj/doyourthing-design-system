@@ -36,7 +36,6 @@ esbuild
 		entryPoints: files,
 		format: "esm",
 		outdir: dst,
-		outbase: src,
 		watch: watch
 			? {
 					onRebuild(error, result) {
@@ -47,7 +46,9 @@ esbuild
 			: false,
 	})
 	.then(() =>
-		console.log(`(ESM) Build complete! ${watch && "Watching for changes..."}`)
+		console.log(
+			`(ESM) Build complete! ${watch ? "Watching for changes..." : ""}`
+		)
 	)
 	.catch(() => process.exit(1));
 
@@ -70,6 +71,8 @@ esbuild
 			: false,
 	})
 	.then(() =>
-		console.log(`(CJS) Build complete! ${watch && "Watching for changes..."}`)
+		console.log(
+			`(CJS) Build complete! ${watch ? "Watching for changes..." : ""}`
+		)
 	)
 	.catch(() => process.exit(1));
