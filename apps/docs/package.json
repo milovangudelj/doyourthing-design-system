@@ -39,7 +39,7 @@
 		"babel-loader": "8.2.5",
 		"chalk": "5.1.2",
 		"classnames": "2.3.2",
-		"esbuild": "0.15.11",
+		"esbuild": "0.15.12",
 		"next": "12.3.1",
 		"phosphor-react": "1.4.1",
 		"postcss": "8.4.18",
