@@ -60,7 +60,14 @@ esbuild
 		format: "cjs",
 		outfile: `${dst}/index.cjs`,
 		bundle: true,
-		external: ["react", "tailwindcss", "@tailwindcss/forms"],
+		external: [
+			"react",
+			"react-dom",
+			"next",
+			"classnames",
+			"phosphor-react",
+			"@tailwindcss/forms",
+		],
 		watch: watch
 			? {
 					onRebuild(error, result) {

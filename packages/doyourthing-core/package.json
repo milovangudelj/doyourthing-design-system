@@ -31,7 +31,6 @@
 		"eslint": "8.25.0",
 		"eslint-config-doyourthing": "*",
 		"postcss": "8.4.18",
-		"react": "18.2.0",
 		"rimraf": "3.0.2",
 		"tailwindcss": "3.1.8",
 		"typescript": "4.8.4"
@@ -42,6 +41,10 @@
 	},
 	"dependencies": {
 		"@doyourthing/utils": "*",
-		"classnames": "^2.3.2"
+		"classnames": "^2.3.2",
+		"next": "^12.3.1",
+		"phosphor-react": "^1.4.1",
+		"react": "18.2.0",
+		"react-dom": "^18.2.0"
 	}
 }
