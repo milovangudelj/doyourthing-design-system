@@ -43,39 +43,39 @@ export const dytDark = create({
 });
 
 export const dytLight = create({
-	base: 'dark',
- 
-	colorPrimary: theme.colors.blue['500'],
-	colorSecondary: theme.colors.primary['500'],
- 
+	base: "dark",
+
+	colorPrimary: theme.colors.blue["500"],
+	colorSecondary: theme.colors.primary["500"],
+
 	// UI
-	appBg: theme.colors.zinc['100'],
-	appContentBg: theme.colors.zinc['50'],
-	appBorderColor: theme.colors.zinc['200'],
+	appBg: theme.colors.zinc["100"],
+	appContentBg: theme.colors.zinc["50"],
+	appBorderColor: theme.colors.zinc["200"],
 	appBorderRadius: 4,
- 
+
 	// Typography
 	fontBase: theme.extend.fontFamily.sans,
 	fontCode: theme.extend.fontFamily.mono,
- 
+
 	// Text colors
 	textColor: theme.colors.dark.he,
 	textMutedColor: theme.colors.dark.me,
 	textInverseColor: theme.colors.dark.he,
- 
+
 	// Toolbar default and active colors
 	barTextColor: theme.colors.dark.me,
 	barSelectedColor: theme.colors.dark.he,
-	barBg: theme.colors.zinc['200'],
- 
+	barBg: theme.colors.zinc["200"],
+
 	// Form colors
 	inputBg: theme.colors.transparent,
-	inputBorder: theme.colors.zinc['200'],
+	inputBorder: theme.colors.zinc["200"],
 	inputTextColor: theme.colors.dark.he,
 	inputBorderRadius: 4,
- 
-	brandTitle: 'DoYourThing UI',
-	brandUrl: 'https://doyourthing.dev',
-	brandImage: 'https://place-hold.it/350x150',
-	brandTarget: '_self',
- });
+
+	brandTitle: "DoYourThing UI",
+	brandUrl: "https://doyourthing.dev",
+	brandImage: "https://ui.doyourthing.dev/dyt-logo.svg",
+	brandTarget: "_self",
+});
