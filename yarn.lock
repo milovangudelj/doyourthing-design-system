@@ -2163,28 +2163,6 @@
     slash "^3.0.0"
     util "^0.12.4"
 
-"@storybook/builder-vite@7.0.0-alpha.42":
-  version "7.0.0-alpha.42"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-alpha.42.tgz#25d800d33645bccc4b957b8c15c4ede0282f1ee0"
-  integrity sha512-Z71N6oDLKKRphXX3chANYSQ2R2xMcPIe5xTV3s0y4RH1kHItxLgUtVkLHYH+4geX5+pUdRXQHWwxg8XXB1c88A==
-  dependencies:
-    "@joshwooding/vite-plugin-react-docgen-typescript" "0.0.5"
-    "@storybook/client-api" "7.0.0-alpha.42"
-    "@storybook/client-logger" "7.0.0-alpha.42"
-    "@storybook/core-common" "7.0.0-alpha.42"
-    "@storybook/mdx2-csf" "0.1.0-next.0"
-    "@storybook/node-logger" "7.0.0-alpha.42"
-    "@storybook/preview-web" "7.0.0-alpha.42"
-    "@storybook/source-loader" "7.0.0-alpha.42"
-    "@vitejs/plugin-react" "^2.0.0"
-    browser-assert "^1.2.1"
-    es-module-lexer "^0.9.3"
-    glob "^7.2.0"
-    glob-promise "^4.2.0"
-    magic-string "^0.26.1"
-    slash "^3.0.0"
-    vite "^3.1.3"
-
 "@storybook/builder-vite@7.0.0-alpha.43":
   version "7.0.0-alpha.43"
   resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-alpha.43.tgz#441c4e6406192b6a8c6e4535858b5e905d3ec3d5"
@@ -2711,20 +2689,6 @@
     core-js "^3.8.2"
     global "^4.4.0"
 
-"@storybook/mdx2-csf@0.1.0-next.0":
-  version "0.1.0-next.0"
-  resolved "https://registry.yarnpkg.com/@storybook/mdx2-csf/-/mdx2-csf-0.1.0-next.0.tgz#3683f5b7f7d6fb5a37f67ab7842319002399746c"
-  integrity sha512-1slnbfx/iYfQuQGVWCTmyVe9Xgmima/hoIRT+2+YIkhn7cXKK5pzmCDlnYC51T9duc2PHo8G/0GlsYoHnkFMfw==
-  dependencies:
-    "@babel/generator" "^7.12.11"
-    "@babel/parser" "^7.12.11"
-    "@mdx-js/mdx" "^2.0.0"
-    estree-to-babel "^4.9.0"
-    hast-util-to-estree "^2.0.2"
-    js-string-escape "^1.0.1"
-    loader-utils "^2.0.0"
-    lodash "^4.17.21"
-
 "@storybook/mdx2-csf@next":
   version "0.1.0-next.2"
   resolved "https://registry.yarnpkg.com/@storybook/mdx2-csf/-/mdx2-csf-0.1.0-next.2.tgz#72a437db6382e2036fefd0c380ba6138dc03479f"
@@ -2966,16 +2930,6 @@
   dependencies:
     core-js "^3.6.5"
     find-up "^4.1.0"
-
-"@storybook/source-loader@7.0.0-alpha.42":
-  version "7.0.0-alpha.42"
-  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-7.0.0-alpha.42.tgz#07bf8c830ad8091581b1ee0cfa89bcdd2645ed58"
-  integrity sha512-6hSCaeZhrGXGjGtH7mt8eYVkjy73XOI43aeJbu7tnFlJ5DlmoY7Qjf9djDS4UbzJFOGZh3zwqk4lVyC0HzoyFg==
-  dependencies:
-    "@storybook/csf" next
-    estraverse "^5.2.0"
-    lodash "^4.17.21"
-    prettier ">=2.2.1 <=2.3.0"
 
 "@storybook/source-loader@7.0.0-alpha.43":
   version "7.0.0-alpha.43"
