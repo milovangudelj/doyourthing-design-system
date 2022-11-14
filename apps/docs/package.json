@@ -34,7 +34,7 @@
 		"@tailwindcss/forms": "0.5.3",
 		"@tsconfig/recommended": "1.0.1",
 		"@types/react": "18.0.25",
-		"@types/react-dom": "18.0.8",
+		"@types/react-dom": "18.0.9",
 		"autoprefixer": "10.4.13",
 		"babel-loader": "9.1.0",
 		"chalk": "5.1.2",
