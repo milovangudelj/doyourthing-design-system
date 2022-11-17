@@ -2230,6 +2230,29 @@
     slash "^3.0.0"
     vite "^3.1.3"
 
+"@storybook/builder-vite@7.0.0-alpha.50":
+  version "7.0.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-alpha.50.tgz#481d0300eccbc1a64f0db1ede5b508af70da34e4"
+  integrity sha512-G6vruQIIYhaq6EMHWqn12tAy3XS+G+Hk58x987rFk+4pjzs94EsJNvXMEPa8PfTlk1Vr2gSughLmb4Bck0HVVA==
+  dependencies:
+    "@joshwooding/vite-plugin-react-docgen-typescript" "0.0.5"
+    "@storybook/client-api" "7.0.0-alpha.50"
+    "@storybook/client-logger" "7.0.0-alpha.50"
+    "@storybook/core-common" "7.0.0-alpha.50"
+    "@storybook/mdx2-csf" next
+    "@storybook/node-logger" "7.0.0-alpha.50"
+    "@storybook/preview-web" "7.0.0-alpha.50"
+    "@storybook/source-loader" "7.0.0-alpha.50"
+    "@storybook/types" "7.0.0-alpha.50"
+    "@vitejs/plugin-react" "^2.0.0"
+    browser-assert "^1.2.1"
+    es-module-lexer "^0.9.3"
+    glob "^7.2.0"
+    glob-promise "^4.2.0"
+    magic-string "^0.26.1"
+    slash "^3.0.0"
+    vite "^3.1.3"
+
 "@storybook/builder-webpack5@7.0.0-alpha.49":
   version "7.0.0-alpha.49"
   resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-7.0.0-alpha.49.tgz#226cc8d2cb4a99407d4526c0910bb0bf21cdc422"
@@ -2885,20 +2908,20 @@
     react-docgen-typescript "^2.1.1"
     tslib "^2.0.0"
 
-"@storybook/react-vite@7.0.0-alpha.49":
-  version "7.0.0-alpha.49"
-  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-alpha.49.tgz#9952d8f31e93cdb8c7272e65f8092bf126e698a8"
-  integrity sha512-yhEXEY3qBR+iUCK3Rs81m8YVifAEAEPQhuidgHuztwICfk28/Qv22GgfmzqtYkTXkZV2RG0jQE7PkhxjImHFYQ==
+"@storybook/react-vite@7.0.0-alpha.50":
+  version "7.0.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-alpha.50.tgz#f9e4b226f139f7930e939f6bd12f33104e8ba5dc"
+  integrity sha512-eW9+qA10vygHaiK5ptXjUcYuL4HLkMoWXqnAda7t0YZ7UccSCsldsm8fgPSdWch4/IyFzoTR02hNkQ3/VzO4vA==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "^0.0.5"
     "@rollup/pluginutils" "^4.2.0"
-    "@storybook/addons" "7.0.0-alpha.49"
-    "@storybook/builder-vite" "7.0.0-alpha.49"
-    "@storybook/channel-postmessage" "7.0.0-alpha.49"
-    "@storybook/channel-websocket" "7.0.0-alpha.49"
-    "@storybook/client-api" "7.0.0-alpha.49"
-    "@storybook/preview-web" "7.0.0-alpha.49"
-    "@storybook/react" "7.0.0-alpha.49"
+    "@storybook/addons" "7.0.0-alpha.50"
+    "@storybook/builder-vite" "7.0.0-alpha.50"
+    "@storybook/channel-postmessage" "7.0.0-alpha.50"
+    "@storybook/channel-websocket" "7.0.0-alpha.50"
+    "@storybook/client-api" "7.0.0-alpha.50"
+    "@storybook/preview-web" "7.0.0-alpha.50"
+    "@storybook/react" "7.0.0-alpha.50"
     "@vitejs/plugin-react" "^2.0.0"
     ast-types "^0.14.2"
     magic-string "^0.26.1"
@@ -3011,6 +3034,17 @@
   dependencies:
     "@storybook/csf" next
     "@storybook/types" "7.0.0-alpha.49"
+    estraverse "^5.2.0"
+    lodash "^4.17.21"
+    prettier ">=2.2.1 <=3.0.0"
+
+"@storybook/source-loader@7.0.0-alpha.50":
+  version "7.0.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-7.0.0-alpha.50.tgz#2c70a29db7b4ffc85f57d04ae89bda1327885be2"
+  integrity sha512-m4aul2NzrvIml0MgXk8UioO+AhxO4T1zOu3t96mV6tDIn+CkVQxrvh+MOPHl0tjEmz1IxQ1a0u0jAzlaoS6rxA==
+  dependencies:
+    "@storybook/csf" "0.0.2-next.7"
+    "@storybook/types" "7.0.0-alpha.50"
     estraverse "^5.2.0"
     lodash "^4.17.21"
     prettier ">=2.2.1 <=3.0.0"
@@ -9472,7 +9506,7 @@ postcss@8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@8.4.19, postcss@^8.4.16, postcss@^8.4.18, postcss@^8.4.7:
+postcss@8.4.19, postcss@^8.4.18, postcss@^8.4.7:
   version "8.4.19"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.19.tgz#61178e2add236b17351897c8bcc0b4c8ecab56fc"
   integrity sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==
@@ -10159,13 +10193,6 @@ rollup@^2.79.1:
   version "2.79.1"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.79.1.tgz#bedee8faef7c9f93a2647ac0108748f497f081c7"
   integrity sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==
-  optionalDependencies:
-    fsevents "~2.3.2"
-
-rollup@~2.78.0:
-  version "2.78.1"
-  resolved "https://registry.npmjs.org/rollup/-/rollup-2.78.1.tgz"
-  integrity sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -11468,7 +11495,7 @@ vfile@^5.0.0:
     unist-util-stringify-position "^3.0.0"
     vfile-message "^3.0.0"
 
-vite@3.2.4:
+vite@3.2.4, vite@^3.1.3:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/vite/-/vite-3.2.4.tgz#d8c7892dd4268064e04fffbe7d866207dd24166e"
   integrity sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==
@@ -11477,18 +11504,6 @@ vite@3.2.4:
     postcss "^8.4.18"
     resolve "^1.22.1"
     rollup "^2.79.1"
-  optionalDependencies:
-    fsevents "~2.3.2"
-
-vite@^3.1.3:
-  version "3.1.8"
-  resolved "https://registry.npmjs.org/vite/-/vite-3.1.8.tgz"
-  integrity sha512-m7jJe3nufUbuOfotkntGFupinL/fmuTNuQmiVE7cH2IZMuf4UbfbGYMUT3jVWgGYuRVLY9j8NnrRqgw5rr5QTg==
-  dependencies:
-    esbuild "^0.15.9"
-    postcss "^8.4.16"
-    resolve "^1.22.1"
-    rollup "~2.78.0"
   optionalDependencies:
     fsevents "~2.3.2"
 
