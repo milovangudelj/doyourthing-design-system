@@ -2348,6 +2348,13 @@
   dependencies:
     global "^4.4.0"
 
+"@storybook/client-logger@7.0.0-alpha.50":
+  version "7.0.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.0-alpha.50.tgz#5106117d493eed2330f288a95b702cbaac904193"
+  integrity sha512-WzxBqyF/sn5CZkt4GMVT3jY11FB27Jz8s/G8YoQhdf9E0QSYasRkRlNbBCu9PM9SFzzY5+MAnAR5CjJMzJtY/Q==
+  dependencies:
+    global "^4.4.0"
+
 "@storybook/codemod@7.0.0-alpha.49":
   version "7.0.0-alpha.49"
   resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-7.0.0-alpha.49.tgz#4748b7f5af5633ecd9d7eef986f827af950e10f2"
@@ -2849,6 +2856,15 @@
   dependencies:
     "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
     "@storybook/client-logger" "7.0.0-alpha.49"
+    memoizerific "^1.11.3"
+
+"@storybook/theming@7.0.0-alpha.50":
+  version "7.0.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-alpha.50.tgz#25fa99accd13bd33b16b6cbb50db18d579c191e6"
+  integrity sha512-AJmHLTUav/D9gMP/J/eaL6hBdX+dIhxhDuoXIsaeXuviOV8X2T9v+OAQyhn122b3CC8TBn8dlXgip1DnK0YvvQ==
+  dependencies:
+    "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
+    "@storybook/client-logger" "7.0.0-alpha.50"
     memoizerific "^1.11.3"
 
 "@storybook/types@7.0.0-alpha.49":
@@ -9652,15 +9668,10 @@ regenerate@^1.4.2:
   resolved "https://registry.npmjs.org/regenerate/-/regenerate-1.4.2.tgz"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
 
-regenerator-runtime@^0.13.2:
+regenerator-runtime@^0.13.2, regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.7:
   version "0.13.10"
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz"
   integrity sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==
-
-regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.7:
-  version "0.13.9"
-  resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
-  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
 
 regenerator-transform@^0.15.0:
   version "0.15.0"
@@ -11293,9 +11304,9 @@ webpack-virtual-modules@^0.4.3, webpack-virtual-modules@^0.4.5:
   integrity sha512-8bWq0Iluiv9lVf9YaqWQ9+liNgXSHICm+rg544yRgGYaR8yXZTVBaHZkINZSB2yZSWo4b0F6MIxqJezVfOEAlg==
 
 webpack@5:
-  version "5.74.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.74.0.tgz#02a5dac19a17e0bb47093f2be67c695102a55980"
-  integrity sha512-A2InDwnhhGN4LYctJj6M1JEaGL7Luj6LOmyBHjcI8529cm5p6VXiTIW2sn6ffvEAKmveLzvu4jrihwXtPojlAA==
+  version "5.75.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.75.0.tgz#1e440468647b2505860e94c9ff3e44d5b582c152"
+  integrity sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
