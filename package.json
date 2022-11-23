@@ -20,7 +20,7 @@
 		"@changesets/cli": "2.25.2",
 		"eslint": "8.28.0",
 		"eslint-config-doyourthing": "*",
-		"prettier": "2.7.1",
+		"prettier": "2.8.0",
 		"turbo": "latest"
 	}
 }
