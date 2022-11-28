@@ -19,7 +19,7 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@babel/core": "7.20.2",
+		"@babel/core": "7.20.5",
 		"@storybook/addon-essentials": "7.0.0-alpha.54",
 		"@storybook/addon-interactions": "7.0.0-alpha.54",
 		"@storybook/addon-links": "7.0.0-alpha.54",
