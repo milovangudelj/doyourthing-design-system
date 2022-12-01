@@ -2074,18 +2074,18 @@
     polished "^4.2.2"
     ts-dedent "^2.2.0"
 
-"@storybook/addon-links@7.0.0-alpha.55":
-  version "7.0.0-alpha.55"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.0-alpha.55.tgz#bd2a546636f66a2e8b4617558f96002ae9144ffe"
-  integrity sha512-IyxQ2xAHGd3FtF4hhLZLUxdMpXAPVL8IHh7C8fZ4P10ulicNymG84uivTQKfrS4t2MwF4hDTb+6dK8HG96y7vA==
+"@storybook/addon-links@7.0.0-alpha.56":
+  version "7.0.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.0.0-alpha.56.tgz#9aa559dbb593eb9c27cf0de1f6cb6e90cd686a9f"
+  integrity sha512-XLYbdcGeqUP0jQpKiQOqU9+lUsLL4XOxNlBvVLVXyfrfb0An0GELpYZZwGH9UU+dM4tG6ymjxpj8ZPbsu1l4eg==
   dependencies:
-    "@storybook/client-logger" "7.0.0-alpha.55"
-    "@storybook/core-events" "7.0.0-alpha.55"
+    "@storybook/client-logger" "7.0.0-alpha.56"
+    "@storybook/core-events" "7.0.0-alpha.56"
     "@storybook/csf" next
-    "@storybook/manager-api" "7.0.0-alpha.55"
-    "@storybook/preview-api" "7.0.0-alpha.55"
-    "@storybook/router" "7.0.0-alpha.55"
-    "@storybook/types" "7.0.0-alpha.55"
+    "@storybook/manager-api" "7.0.0-alpha.56"
+    "@storybook/preview-api" "7.0.0-alpha.56"
+    "@storybook/router" "7.0.0-alpha.56"
+    "@storybook/types" "7.0.0-alpha.56"
     global "^4.4.0"
     prop-types "^15.7.2"
     ts-dedent "^2.0.0"
