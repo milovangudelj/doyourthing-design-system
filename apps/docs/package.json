@@ -26,7 +26,7 @@
 		"@storybook/addon-postcss": "3.0.0-alpha.1",
 		"@storybook/addons": "7.0.0-alpha.55",
 		"@storybook/builder-vite": "7.0.0-alpha.55",
-		"@storybook/react": "7.0.0-alpha.55",
+		"@storybook/react": "7.0.0-alpha.56",
 		"@storybook/react-vite": "7.0.0-alpha.55",
 		"@storybook/react-webpack5": "7.0.0-alpha.55",
 		"@storybook/testing-library": "0.0.14--canary.23.ac6b056.0",
