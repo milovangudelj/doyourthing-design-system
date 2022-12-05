@@ -10417,10 +10417,10 @@ store2@^2.12.0:
   resolved "https://registry.npmjs.org/store2/-/store2-2.14.2.tgz"
   integrity sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==
 
-storybook-dark-mode@1.1.3-canary.194.4245.0:
-  version "1.1.3-canary.194.4245.0"
-  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-1.1.3-canary.194.4245.0.tgz#a3b2c67f6cfbe1fabf3d3567681d9655ece5f741"
-  integrity sha512-pfTOzFbT6p3bwbwmqfJN40HA2PCQEXnWC6Tot5J2dZu/4utICcndXtvnPyzLv4HSCjdq4BvWrZgWVRjbNxloiw==
+storybook-dark-mode@2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-2.0.3.tgz#828610f006909a306466820fd25cd8b17f1ce645"
+  integrity sha512-UhFZ3truqDsI6N6KgrrTWjd3/2eAH+KhMCxXu9ytP/nSPhUb59HURAREh7LNEx61vZ/sbUY8w+uDswogUCFHLg==
   dependencies:
     "@storybook/addons" "^6.0.0"
     "@storybook/api" "^6.0.0"
