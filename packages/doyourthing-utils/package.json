@@ -31,7 +31,7 @@
 		"@doyourthing/tsconfig": "*",
 		"@types/react": "18.0.26",
 		"@types/react-dom": "18.0.9",
-		"chalk": "5.1.2",
+		"chalk": "5.2.0",
 		"esbuild": "0.16.3",
 		"eslint": "8.29.0",
 		"eslint-config-doyourthing": "*",
