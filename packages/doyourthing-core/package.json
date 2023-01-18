@@ -31,7 +31,7 @@
 		"eslint": "8.32.0",
 		"eslint-config-doyourthing": "*",
 		"postcss": "8.4.21",
-		"rimraf": "4.1.0",
+		"rimraf": "4.1.1",
 		"tailwindcss": "3.2.4",
 		"typescript": "4.9.4"
 	},
