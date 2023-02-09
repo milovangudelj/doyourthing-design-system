@@ -2570,6 +2570,31 @@
     rollup "^2.25.0 || ^3.3.0"
     slash "^3.0.0"
 
+"@storybook/builder-vite@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-beta.45.tgz#31bfd0d0e39c1c043e13eda40d222b8471e5e3c2"
+  integrity sha512-FTJ8vcAqi0OdHlCDKlkkRTbzmcD2HwL5bMfC5MP7hJ0zuhWCNwycGEoJJEHSrbmBwF0RgWvrntuQfByCHr6WsQ==
+  dependencies:
+    "@storybook/channel-postmessage" "7.0.0-beta.45"
+    "@storybook/channel-websocket" "7.0.0-beta.45"
+    "@storybook/client-logger" "7.0.0-beta.45"
+    "@storybook/core-common" "7.0.0-beta.45"
+    "@storybook/csf-plugin" "7.0.0-beta.45"
+    "@storybook/mdx2-csf" next
+    "@storybook/node-logger" "7.0.0-beta.45"
+    "@storybook/preview" "7.0.0-beta.45"
+    "@storybook/preview-api" "7.0.0-beta.45"
+    "@storybook/types" "7.0.0-beta.45"
+    browser-assert "^1.2.1"
+    es-module-lexer "^0.9.3"
+    express "^4.17.3"
+    fs-extra "^11.1.0"
+    glob "^8.1.0"
+    glob-promise "^6.0.2"
+    magic-string "^0.27.0"
+    rollup "^2.25.0 || ^3.3.0"
+    slash "^3.0.0"
+
 "@storybook/builder-webpack5@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-7.0.0-beta.44.tgz#56d801107fa08c2f4ed71e11099a47baddbacca8"
@@ -2663,6 +2688,16 @@
   dependencies:
     "@storybook/channels" "7.0.0-beta.44"
     "@storybook/client-logger" "7.0.0-beta.44"
+    "@storybook/global" "^5.0.0"
+    telejson "^7.0.3"
+
+"@storybook/channel-websocket@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/channel-websocket/-/channel-websocket-7.0.0-beta.45.tgz#91d5cb64cea11fd15316bb8a0dd13016e170b790"
+  integrity sha512-+jXf16R35KzA+0M4tJ5qxJTbfWCd2D2KMil6xr83NNS+MvkvU5if+vBWgzkhkrUTxoIDfbX/qBxUL0pgFScm6g==
+  dependencies:
+    "@storybook/channels" "7.0.0-beta.45"
+    "@storybook/client-logger" "7.0.0-beta.45"
     "@storybook/global" "^5.0.0"
     telejson "^7.0.3"
 
@@ -3284,6 +3319,11 @@
   version "7.0.0-beta.44"
   resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-beta.44.tgz#0a97a70e61a69fb3ef2858841f7568d8757cd57b"
   integrity sha512-XMhnWZnXbkggp8kIAjt2Z8f8dE16YbIFwbvNWn73KqK7jFJtCdsNFy+yce+yRe8M+HwyoD6Be5XbUDN4yI7HzQ==
+
+"@storybook/preview@7.0.0-beta.45":
+  version "7.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-beta.45.tgz#947241b566d2d67cf2192264fe61d7166eb20582"
+  integrity sha512-fofDdHtkj7dSSzrtuetBZe4QcSG/igzN+ZponBOBq09okFG5kdFeSBuMcwNRsyFByFwSTa95QHVEfvIdoZulGQ==
 
 "@storybook/react-docgen-typescript-plugin@1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0":
   version "1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0"
