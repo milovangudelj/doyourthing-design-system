@@ -32,7 +32,7 @@
 		"@types/react": "18.0.28",
 		"@types/react-dom": "18.0.11",
 		"chalk": "5.2.0",
-		"esbuild": "0.17.8",
+		"esbuild": "0.17.9",
 		"eslint": "8.34.0",
 		"eslint-config-doyourthing": "*",
 		"rimraf": "4.1.2",
