@@ -2858,6 +2858,14 @@
     "@storybook/client-logger" "7.0.0-beta.51"
     "@storybook/preview-api" "7.0.0-beta.51"
 
+"@storybook/core-client@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-beta.52.tgz#aecf84b307386b309d8ace30e141c70f689ab6ac"
+  integrity sha512-/HLXPt4lF/wbdXDS3JYEc42vM9wgaQUV8e44RMlDtJ6lkjSLohqQO59ipG4QsUD4BKOsa0iW2nmBgEmIXE/xsw==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.52"
+    "@storybook/preview-api" "7.0.0-beta.52"
+
 "@storybook/core-common@7.0.0-beta.51":
   version "7.0.0-beta.51"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.0.0-beta.51.tgz#cc5970f66c876292bf508672a60dddc0baa0dd62"
@@ -3062,6 +3070,19 @@
     "@storybook/core-common" "7.0.0-beta.51"
     "@storybook/preview-api" "7.0.0-beta.51"
     "@storybook/types" "7.0.0-beta.51"
+    "@types/doctrine" "^0.0.3"
+    doctrine "^3.0.0"
+    lodash "^4.17.21"
+
+"@storybook/docs-tools@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0-beta.52.tgz#674a290f88754a24528359c6fc83c93c029c354b"
+  integrity sha512-EcrfXeUwStj91RKHpaisFjASbpodHkhiFByAdEaGcpgdk3Nx10bWAqx0ItqJO83LZlYJGzjI2HVFBNhe6yeuxA==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@storybook/core-common" "7.0.0-beta.52"
+    "@storybook/preview-api" "7.0.0-beta.52"
+    "@storybook/types" "7.0.0-beta.52"
     "@types/doctrine" "^0.0.3"
     doctrine "^3.0.0"
     lodash "^4.17.21"
@@ -3302,15 +3323,15 @@
     react-docgen-typescript "^2.1.1"
     tslib "^2.0.0"
 
-"@storybook/react-vite@7.0.0-beta.51":
-  version "7.0.0-beta.51"
-  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-beta.51.tgz#bcc16dc702d52ad10671e7563dc88fb15d8886cf"
-  integrity sha512-aS0HlMEas6e6C5vhcTQxZGtluI8iOCLlVF4nRtUZaM24o2df6q7Q78eypU7nXHsvRhpCBnpOpDsuniAtZnmsuA==
+"@storybook/react-vite@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@storybook/react-vite/-/react-vite-7.0.0-beta.52.tgz#d30142108669926f5e5b316b13a590cd5d289845"
+  integrity sha512-dZc19WwHnZAaHV/E3wrjN0V+uMK+eJ4dcj+8NF1JreyOOD9OJ8kUFSp8p82QyfBPme2DJvKPBbNlCnBJX0Qmzg==
   dependencies:
     "@joshwooding/vite-plugin-react-docgen-typescript" "^0.2.1"
     "@rollup/pluginutils" "^4.2.0"
-    "@storybook/builder-vite" "7.0.0-beta.51"
-    "@storybook/react" "7.0.0-beta.51"
+    "@storybook/builder-vite" "7.0.0-beta.52"
+    "@storybook/react" "7.0.0-beta.52"
     "@vitejs/plugin-react" "^3.0.1"
     ast-types "^0.14.2"
     magic-string "^0.27.0"
@@ -3337,6 +3358,32 @@
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.0.0-beta.51"
     "@storybook/types" "7.0.0-beta.51"
+    "@types/escodegen" "^0.0.6"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^16.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.0.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "^2.19.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/react@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-beta.52.tgz#d60cd2cff13c278b0fa0496e760f1c1d564fa3aa"
+  integrity sha512-1pKm+7htQqTiMoSwE+JT45gXnWq+PkeAuaIDdZZMD3DanahAk3oTqZ46ddkx+a0Yvx6XoHP5q/n1JKtx+Y0jhQ==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.52"
+    "@storybook/core-client" "7.0.0-beta.52"
+    "@storybook/docs-tools" "7.0.0-beta.52"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.0.0-beta.52"
+    "@storybook/types" "7.0.0-beta.52"
     "@types/escodegen" "^0.0.6"
     "@types/estree" "^0.0.51"
     "@types/node" "^16.0.0"
