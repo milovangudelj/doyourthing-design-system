@@ -2542,31 +2542,6 @@
     slash "^3.0.0"
     util "^0.12.4"
 
-"@storybook/builder-vite@7.0.0-beta.51":
-  version "7.0.0-beta.51"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-beta.51.tgz#3c6277a254bb3f97f4a3a699f916a0a4450587aa"
-  integrity sha512-FmLoIJUAZvMbCPzMPPKkOnnnKmvy1fqtk4izICGSlupLXHK4v9+B5JvjdkuttQ+b+fhEZmtobo0MRUu8wUXcGg==
-  dependencies:
-    "@storybook/channel-postmessage" "7.0.0-beta.51"
-    "@storybook/channel-websocket" "7.0.0-beta.51"
-    "@storybook/client-logger" "7.0.0-beta.51"
-    "@storybook/core-common" "7.0.0-beta.51"
-    "@storybook/csf-plugin" "7.0.0-beta.51"
-    "@storybook/mdx2-csf" next
-    "@storybook/node-logger" "7.0.0-beta.51"
-    "@storybook/preview" "7.0.0-beta.51"
-    "@storybook/preview-api" "7.0.0-beta.51"
-    "@storybook/types" "7.0.0-beta.51"
-    browser-assert "^1.2.1"
-    es-module-lexer "^0.9.3"
-    express "^4.17.3"
-    fs-extra "^11.1.0"
-    glob "^8.1.0"
-    glob-promise "^6.0.2"
-    magic-string "^0.27.0"
-    rollup "^2.25.0 || ^3.3.0"
-    slash "^3.0.0"
-
 "@storybook/builder-vite@7.0.0-beta.52":
   version "7.0.0-beta.52"
   resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-beta.52.tgz#60f18c634e0830514986ac94f5d227c083759813"
@@ -3856,12 +3831,7 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*":
-  version "18.11.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
-  integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
-
-"@types/node@18.14.0":
+"@types/node@*", "@types/node@18.14.0":
   version "18.14.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.0.tgz#94c47b9217bbac49d4a67a967fdcdeed89ebb7d0"
   integrity sha512-5EWrvLmglK+imbCJY0+INViFWUHg1AHel1sq4ZVSfdcNqGy9Edv3UB9IIzzg+xPaUcAgZYcfVs2fBcwDeZzU0A==
