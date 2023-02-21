@@ -2326,21 +2326,21 @@
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.0.0-beta.52"
 
-"@storybook/addon-interactions@7.0.0-beta.51":
-  version "7.0.0-beta.51"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.0.0-beta.51.tgz#271025969f467459f3fd794e66dcb05612a27f37"
-  integrity sha512-P45l6f+tgDu+hh9/n9BGfPyg/Hu8nLtTVGmmIoZ+c+/BQ8E+ztH8md8itSauf1TzHa4ExHKJHCrvOfYG46eKLA==
+"@storybook/addon-interactions@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.0.0-beta.52.tgz#cbe1825b11447891fe48aa32c1f10565270e03b9"
+  integrity sha512-e0s/yQql4p3hN0hTSvMVcoevfyCH6So+GW/uVf0gVuog87jLQXCQ5I5WqsZ8/LPLbU1UnMVeKwqy8JyoWu6Zcw==
   dependencies:
-    "@storybook/client-logger" "7.0.0-beta.51"
-    "@storybook/components" "7.0.0-beta.51"
-    "@storybook/core-common" "7.0.0-beta.51"
-    "@storybook/core-events" "7.0.0-beta.51"
+    "@storybook/client-logger" "7.0.0-beta.52"
+    "@storybook/components" "7.0.0-beta.52"
+    "@storybook/core-common" "7.0.0-beta.52"
+    "@storybook/core-events" "7.0.0-beta.52"
     "@storybook/global" "^5.0.0"
-    "@storybook/instrumenter" "7.0.0-beta.51"
-    "@storybook/manager-api" "7.0.0-beta.51"
-    "@storybook/preview-api" "7.0.0-beta.51"
-    "@storybook/theming" "7.0.0-beta.51"
-    "@storybook/types" "7.0.0-beta.51"
+    "@storybook/instrumenter" "7.0.0-beta.52"
+    "@storybook/manager-api" "7.0.0-beta.52"
+    "@storybook/preview-api" "7.0.0-beta.52"
+    "@storybook/theming" "7.0.0-beta.52"
+    "@storybook/types" "7.0.0-beta.52"
     jest-mock "^27.0.6"
     polished "^4.2.2"
     ts-dedent "^2.2.0"
@@ -2541,31 +2541,6 @@
     process "^0.11.10"
     slash "^3.0.0"
     util "^0.12.4"
-
-"@storybook/builder-vite@7.0.0-beta.51":
-  version "7.0.0-beta.51"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-beta.51.tgz#3c6277a254bb3f97f4a3a699f916a0a4450587aa"
-  integrity sha512-FmLoIJUAZvMbCPzMPPKkOnnnKmvy1fqtk4izICGSlupLXHK4v9+B5JvjdkuttQ+b+fhEZmtobo0MRUu8wUXcGg==
-  dependencies:
-    "@storybook/channel-postmessage" "7.0.0-beta.51"
-    "@storybook/channel-websocket" "7.0.0-beta.51"
-    "@storybook/client-logger" "7.0.0-beta.51"
-    "@storybook/core-common" "7.0.0-beta.51"
-    "@storybook/csf-plugin" "7.0.0-beta.51"
-    "@storybook/mdx2-csf" next
-    "@storybook/node-logger" "7.0.0-beta.51"
-    "@storybook/preview" "7.0.0-beta.51"
-    "@storybook/preview-api" "7.0.0-beta.51"
-    "@storybook/types" "7.0.0-beta.51"
-    browser-assert "^1.2.1"
-    es-module-lexer "^0.9.3"
-    express "^4.17.3"
-    fs-extra "^11.1.0"
-    glob "^8.1.0"
-    glob-promise "^6.0.2"
-    magic-string "^0.27.0"
-    rollup "^2.25.0 || ^3.3.0"
-    slash "^3.0.0"
 
 "@storybook/builder-vite@7.0.0-beta.52":
   version "7.0.0-beta.52"
@@ -3014,14 +2989,6 @@
     "@types/node" "^16.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/csf-plugin@7.0.0-beta.51":
-  version "7.0.0-beta.51"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-7.0.0-beta.51.tgz#ea430440042e9f29c9eb117e2e7fe8b9185bca58"
-  integrity sha512-4aKEdUuUldBs/RbFDe9QkcbG/XZx+59yCersLial+ueoMpaQISPaGFlNeWR6hoYetvrEiDiyKH50iGwErQbRSQ==
-  dependencies:
-    "@storybook/csf-tools" "7.0.0-beta.51"
-    unplugin "^0.10.2"
-
 "@storybook/csf-plugin@7.0.0-beta.52":
   version "7.0.0-beta.52"
   resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-7.0.0-beta.52.tgz#7105d738a82834634e02543652270d313f50d5ae"
@@ -3029,18 +2996,6 @@
   dependencies:
     "@storybook/csf-tools" "7.0.0-beta.52"
     unplugin "^0.10.2"
-
-"@storybook/csf-tools@7.0.0-beta.51":
-  version "7.0.0-beta.51"
-  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.0-beta.51.tgz#3c397871a8aeb65ddbf7e7fa3543b262e598888e"
-  integrity sha512-yCbJQMI67mBj8bmka9p+fvJZsTA7SyGNnzVVWISqoHjUGgKIIMmtjaQpVvfb2iQG2kQyb3jD6RFBeCeh4DFlYQ==
-  dependencies:
-    "@babel/types" "^7.20.2"
-    "@storybook/csf" next
-    "@storybook/types" "7.0.0-beta.51"
-    fs-extra "^11.1.0"
-    recast "^0.23.1"
-    ts-dedent "^2.0.0"
 
 "@storybook/csf-tools@7.0.0-beta.52":
   version "7.0.0-beta.52"
@@ -3106,16 +3061,16 @@
   resolved "https://registry.yarnpkg.com/@storybook/global/-/global-5.0.0.tgz#b793d34b94f572c1d7d9e0f44fac4e0dbc9572ed"
   integrity sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==
 
-"@storybook/instrumenter@7.0.0-beta.51":
-  version "7.0.0-beta.51"
-  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.0.0-beta.51.tgz#9ccb5ed5e79e61a34c9c9b8cee5b6c4d8dfc0f14"
-  integrity sha512-5RXKgFJwEd/Y3VSYN/9DMuBpGAHv735rwFZe+SJz0/0pnu5QfS8V6I72tdZrFRG9KAZksK5nP59cnd/uIe+55w==
+"@storybook/instrumenter@7.0.0-beta.52":
+  version "7.0.0-beta.52"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-7.0.0-beta.52.tgz#da8164abf1b9ac125ce99850be6eb382279ad163"
+  integrity sha512-93cDQshGZ2LKB6vTIbEYB0f7g4uGdZ8TEHhMuOIhfdh/EhclWrr/0hn9ONkoXqQKtg7QTTgJEHIVZg8CZOCZ8A==
   dependencies:
-    "@storybook/channels" "7.0.0-beta.51"
-    "@storybook/client-logger" "7.0.0-beta.51"
-    "@storybook/core-events" "7.0.0-beta.51"
+    "@storybook/channels" "7.0.0-beta.52"
+    "@storybook/client-logger" "7.0.0-beta.52"
+    "@storybook/core-events" "7.0.0-beta.52"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.0.0-beta.51"
+    "@storybook/preview-api" "7.0.0-beta.52"
 
 "@storybook/instrumenter@next":
   version "7.0.0-beta.4"
