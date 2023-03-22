@@ -1291,14 +1291,7 @@
     core-js-pure "^3.25.1"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.9", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4":
-  version "7.19.4"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.19.4.tgz"
-  integrity sha512-EXpLCrk55f+cYqmHsSR+yD/0gAIMxxA9QK9lnQWzhMCvt+YmoBN7Zx94s++Kv0+unHk39vxNO8t+CMA2WSS3wA==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.20.1":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.9", "@babel/runtime@^7.20.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4":
   version "7.20.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.6.tgz#facf4879bfed9b5326326273a64220f099b0fce3"
   integrity sha512-Q+8MqP7TiHMWzSfwiJwXCjyf4GYA4Dgw3emg/7xmwsdLJOZUp+nMqcOwOzzYheuM1rhDu8FSj2l0aoMygEuXuA==
@@ -1546,10 +1539,10 @@
   dependencies:
     "@changesets/types" "^5.2.1"
 
-"@changesets/cli@2.26.0":
-  version "2.26.0"
-  resolved "https://registry.yarnpkg.com/@changesets/cli/-/cli-2.26.0.tgz#f215ddb2b41574ffd0dda9cd77fac927ba048fd3"
-  integrity sha512-0cbTiDms+ICTVtEwAFLNW0jBNex9f5+fFv3I771nBvdnV/mOjd1QJ4+f8KtVSOrwD9SJkk9xbDkWFb0oXd8d1Q==
+"@changesets/cli@2.26.1":
+  version "2.26.1"
+  resolved "https://registry.yarnpkg.com/@changesets/cli/-/cli-2.26.1.tgz#2d10858d7d32314a524e383111c96d831eb0402f"
+  integrity sha512-XnTa+b51vt057fyAudvDKGB0Sh72xutQZNAdXkCqPBKO2zvs2yYZx5hFZj1u9cbtpwM6Sxtcr02/FQJfZOzemQ==
   dependencies:
     "@babel/runtime" "^7.20.1"
     "@changesets/apply-release-plan" "^6.1.3"
