@@ -2965,6 +2965,13 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
+"@storybook/client-logger@7.0.0-rc.9":
+  version "7.0.0-rc.9"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.0.0-rc.9.tgz#4597f3d4fa00e344a3e008cf1959d1158a271b94"
+  integrity sha512-ihBDLgfECGXaP54KXMcTLokOXdKryoKSF6UEErJpzb/Foq8g/OQSaklSjx0xdoEt01JT+cJEdQOLAewNK/4fYg==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
 "@storybook/codemod@7.0.0-rc.8":
   version "7.0.0-rc.8"
   resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-7.0.0-rc.8.tgz#0a198f99b6ae2ef75588a86522c2b79176117b37"
@@ -3494,6 +3501,16 @@
   dependencies:
     "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
     "@storybook/client-logger" "7.0.0-rc.8"
+    "@storybook/global" "^5.0.0"
+    memoizerific "^1.11.3"
+
+"@storybook/theming@7.0.0-rc.9":
+  version "7.0.0-rc.9"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-rc.9.tgz#ff99949791da806c725b51ce8515d3e6f8da5444"
+  integrity sha512-AX7x0tVobm7EQ+7QKSkbbRe/KSDJST1mzcYhOBb0RW0gjgJkwQbbSfL7D+sIMWHYhodULKgEROiRtLqCLHkpIg==
+  dependencies:
+    "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
+    "@storybook/client-logger" "7.0.0-rc.9"
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
@@ -11090,9 +11107,9 @@ webpack-virtual-modules@^0.4.3, webpack-virtual-modules@^0.4.5:
   integrity sha512-8bWq0Iluiv9lVf9YaqWQ9+liNgXSHICm+rg544yRgGYaR8yXZTVBaHZkINZSB2yZSWo4b0F6MIxqJezVfOEAlg==
 
 webpack@5:
-  version "5.76.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.76.1.tgz#7773de017e988bccb0f13c7d75ec245f377d295c"
-  integrity sha512-4+YIK4Abzv8172/SGqObnUjaIHjLEuUasz9EwQj/9xmPPkYJy2Mh03Q/lJfSD3YLzbxy5FeTq5Uw0323Oh6SJQ==
+  version "5.76.3"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.76.3.tgz#dffdc72c8950e5b032fddad9c4452e7787d2f489"
+  integrity sha512-18Qv7uGPU8b2vqGeEEObnfICyw2g39CHlDEK4I7NK13LOur1d0HGmGNKGT58Eluwddpn3oEejwvBPoP4M7/KSA==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
