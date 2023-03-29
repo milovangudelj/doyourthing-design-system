@@ -2787,6 +2787,30 @@
     rollup "^2.25.0 || >=3.3.0 < 3.20.0"
     slash "^3.0.0"
 
+"@storybook/builder-vite@7.0.0-rc.9":
+  version "7.0.0-rc.9"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-vite/-/builder-vite-7.0.0-rc.9.tgz#8b224580b6c319f5cd9a6f08f2cddf368589a69a"
+  integrity sha512-buRdQIv8cBh58APwkBaJjYocHg88wqad+0Uh9h6+vYhgUSMU8YFTNrzQuMpzkI2i9QpqBcKahFoGQ4wAz/9ibw==
+  dependencies:
+    "@storybook/channel-postmessage" "7.0.0-rc.9"
+    "@storybook/channel-websocket" "7.0.0-rc.9"
+    "@storybook/client-logger" "7.0.0-rc.9"
+    "@storybook/core-common" "7.0.0-rc.9"
+    "@storybook/csf-plugin" "7.0.0-rc.9"
+    "@storybook/mdx2-csf" next
+    "@storybook/node-logger" "7.0.0-rc.9"
+    "@storybook/preview" "7.0.0-rc.9"
+    "@storybook/preview-api" "7.0.0-rc.9"
+    "@storybook/types" "7.0.0-rc.9"
+    browser-assert "^1.2.1"
+    es-module-lexer "^0.9.3"
+    express "^4.17.3"
+    fs-extra "^11.1.0"
+    glob "^8.1.0"
+    glob-promise "^6.0.2"
+    magic-string "^0.27.0"
+    rollup "^2.25.0 || ^3.3.0"
+
 "@storybook/builder-webpack5@7.0.0-rc.8":
   version "7.0.0-rc.8"
   resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-7.0.0-rc.8.tgz#5d6fa3ea68cec3586d6dc056e1d5dc8023d98c2c"
@@ -2880,6 +2904,16 @@
   dependencies:
     "@storybook/channels" "7.0.0-rc.8"
     "@storybook/client-logger" "7.0.0-rc.8"
+    "@storybook/global" "^5.0.0"
+    telejson "^7.0.3"
+
+"@storybook/channel-websocket@7.0.0-rc.9":
+  version "7.0.0-rc.9"
+  resolved "https://registry.yarnpkg.com/@storybook/channel-websocket/-/channel-websocket-7.0.0-rc.9.tgz#3a937d3afcbf7168acb3eae3f05a3b7fcb67af29"
+  integrity sha512-iQuFq+94oZgntVtJjk6foTtaeljqERJH2rFIbJ//uoeNYCu3Dd+M9d4gXeCpZi2cPziP3c4/Rnh+nb2KpKgX+A==
+  dependencies:
+    "@storybook/channels" "7.0.0-rc.9"
+    "@storybook/client-logger" "7.0.0-rc.9"
     "@storybook/global" "^5.0.0"
     telejson "^7.0.3"
 
@@ -3183,6 +3217,14 @@
     "@storybook/csf-tools" "7.0.0-rc.8"
     unplugin "^0.10.2"
 
+"@storybook/csf-plugin@7.0.0-rc.9":
+  version "7.0.0-rc.9"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-plugin/-/csf-plugin-7.0.0-rc.9.tgz#aeacd1466a4ced455f9060cadcd4d8d5e73eaa7b"
+  integrity sha512-WF5fJ1iRFHfYV50cRzZPMIPWj+s1V6GVjfaoPOM3M5jcbzjB+NZPPSPvvsRsseHoBCW8gHmox1KOLny6oX/obA==
+  dependencies:
+    "@storybook/csf-tools" "7.0.0-rc.9"
+    unplugin "^0.10.2"
+
 "@storybook/csf-tools@7.0.0-rc.8":
   version "7.0.0-rc.8"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-7.0.0-rc.8.tgz#b2ba660b313584bb5906dc45baa431d00866c180"
@@ -3443,6 +3485,11 @@
   version "7.0.0-rc.8"
   resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-rc.8.tgz#f1035c07046c8d84687d14636a1b7bae7775752c"
   integrity sha512-ZWf/0MXR+6V19fXcNE9Sy0DCRuR1+P8S4Ai7FSy9iUhckk7QTmtgzV+Ob+2NIltZqWjbtDXHquBB6fcJqXqNmg==
+
+"@storybook/preview@7.0.0-rc.9":
+  version "7.0.0-rc.9"
+  resolved "https://registry.yarnpkg.com/@storybook/preview/-/preview-7.0.0-rc.9.tgz#f237dda5952ab488d68966f8b5d63e1e78a17d3d"
+  integrity sha512-JTZguY4bR0wWUPvyTwpQc9wI2vUQ+jBeD2E0m7EnBYFg1/48pTJ+i1o1T4in3RzejR+4aaB7/Hy2jJcDEEZNEw==
 
 "@storybook/react-docgen-typescript-plugin@1.0.6--canary.9.630821.0":
   version "1.0.6--canary.9.630821.0"
@@ -9911,6 +9958,13 @@ rimraf@~2.6.2:
   version "3.19.1"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.19.1.tgz#2b3a31ac1ff9f3afab2e523fa687fef5b0ee20fc"
   integrity sha512-lAbrdN7neYCg/8WaoWn/ckzCtz+jr70GFfYdlf50OF7387HTg+wiuiqJRFYawwSPpqfqDNYqK7smY/ks2iAudg==
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+"rollup@^2.25.0 || ^3.3.0":
+  version "3.20.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.20.2.tgz#f798c600317f216de2e4ad9f4d9ab30a89b690ff"
+  integrity sha512-3zwkBQl7Ai7MFYQE0y1MeQ15+9jsi7XxfrqwTb/9EK8D9C9+//EBR4M+CuA1KODRaNbFez/lWxA5vhEGZp4MUg==
   optionalDependencies:
     fsevents "~2.3.2"
 
