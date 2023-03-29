@@ -3069,6 +3069,14 @@
     regenerator-runtime "^0.13.7"
     util-deprecate "^1.0.2"
 
+"@storybook/core-client@7.0.0-rc.10":
+  version "7.0.0-rc.10"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-rc.10.tgz#c934cb3d5eafccc61ac113b22272b6e260438e70"
+  integrity sha512-Z1zhznMt0NA9PNvBB/JplGAubZp3OszVseIYKj52WmPJHhD/VSlrCMGh9AVkSUsVunF4ciK92GvyMBPuYE/5LA==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-rc.10"
+    "@storybook/preview-api" "7.0.0-rc.10"
+
 "@storybook/core-client@7.0.0-rc.9":
   version "7.0.0-rc.9"
   resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.0.0-rc.9.tgz#c52ce8bee64d8b5734e4ee5eff902b6659f79033"
@@ -3274,6 +3282,19 @@
   version "0.0.1-next.4"
   resolved "https://registry.yarnpkg.com/@storybook/docs-mdx/-/docs-mdx-0.0.1-next.4.tgz#fd583693ea79a303cc972287f05906168ca16e82"
   integrity sha512-a1wiJbxBzikxl73dxyteeylPN7fpVd2JHrcnpX8O3ztPiaX2XQOJM4+7u0xndvn07ZtZzOnH5m9iHP8BJOwXZQ==
+
+"@storybook/docs-tools@7.0.0-rc.10":
+  version "7.0.0-rc.10"
+  resolved "https://registry.yarnpkg.com/@storybook/docs-tools/-/docs-tools-7.0.0-rc.10.tgz#2906147cc09a35a2fff997bd1e4f6bd8ed9d3960"
+  integrity sha512-J8DbctJAiGjp4EpKnjyu1hvr99/H2V4KdWpLqHnIozLd4viELBaFQAuJBVE9Vub8B81vpw9s01JJEuCtEFB7rA==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@storybook/core-common" "7.0.0-rc.10"
+    "@storybook/preview-api" "7.0.0-rc.10"
+    "@storybook/types" "7.0.0-rc.10"
+    "@types/doctrine" "^0.0.3"
+    doctrine "^3.0.0"
+    lodash "^4.17.21"
 
 "@storybook/docs-tools@7.0.0-rc.9":
   version "7.0.0-rc.9"
@@ -3502,6 +3523,11 @@
     react-docgen-typescript "^2.2.2"
     tslib "^2.0.0"
 
+"@storybook/react-dom-shim@7.0.0-rc.10":
+  version "7.0.0-rc.10"
+  resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.0-rc.10.tgz#0fbb05091c60b0f819f28889f19e5ba9c79ef194"
+  integrity sha512-oRmjN4HLo/gumufM6xrCYMncggbsNQ2UC+0Wju2zs86v6mLmoG8CCVnTE2nyUBiy5IDZ464nBhdGYkkuUEYzrg==
+
 "@storybook/react-dom-shim@7.0.0-rc.9":
   version "7.0.0-rc.9"
   resolved "https://registry.yarnpkg.com/@storybook/react-dom-shim/-/react-dom-shim-7.0.0-rc.9.tgz#c01d119b4553954b6eb15cd743a3ec8c0d911172"
@@ -3530,6 +3556,33 @@
     "@storybook/preset-react-webpack" "7.0.0-rc.9"
     "@storybook/react" "7.0.0-rc.9"
     "@types/node" "^16.0.0"
+
+"@storybook/react@7.0.0-rc.10":
+  version "7.0.0-rc.10"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.0.0-rc.10.tgz#af90e060a166cd043f52e4089a28b51149a32c08"
+  integrity sha512-AFN4Jzyp27jhe5qnbtG45yAHq/e3bkdL9p0di2t+AdHXyse8naud2pTzD/j3bbaU23R1iDVwVPQ+X7kAktu0EA==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-rc.10"
+    "@storybook/core-client" "7.0.0-rc.10"
+    "@storybook/docs-tools" "7.0.0-rc.10"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.0.0-rc.10"
+    "@storybook/react-dom-shim" "7.0.0-rc.10"
+    "@storybook/types" "7.0.0-rc.10"
+    "@types/escodegen" "^0.0.6"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^16.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.0.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "^2.19.0"
+    util-deprecate "^1.0.2"
 
 "@storybook/react@7.0.0-rc.9":
   version "7.0.0-rc.9"
@@ -3982,12 +4035,7 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*":
-  version "18.15.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.3.tgz#f0b991c32cfc6a4e7f3399d6cb4b8cf9a0315014"
-  integrity sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==
-
-"@types/node@18.15.11":
+"@types/node@*", "@types/node@18.15.11":
   version "18.15.11"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.11.tgz#b3b790f09cb1696cffcec605de025b088fa4225f"
   integrity sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==
@@ -11281,9 +11329,9 @@ webpack-virtual-modules@^0.4.3, webpack-virtual-modules@^0.4.5:
   integrity sha512-8bWq0Iluiv9lVf9YaqWQ9+liNgXSHICm+rg544yRgGYaR8yXZTVBaHZkINZSB2yZSWo4b0F6MIxqJezVfOEAlg==
 
 webpack@5:
-  version "5.76.3"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.76.3.tgz#dffdc72c8950e5b032fddad9c4452e7787d2f489"
-  integrity sha512-18Qv7uGPU8b2vqGeEEObnfICyw2g39CHlDEK4I7NK13LOur1d0HGmGNKGT58Eluwddpn3oEejwvBPoP4M7/KSA==
+  version "5.77.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.77.0.tgz#dea3ad16d7ea6b84aa55fa42f4eac9f30e7eb9b4"
+  integrity sha512-sbGNjBr5Ya5ss91yzjeJTLKyfiwo5C628AFjEa6WSXcZa4E+F57om3Cc8xLb1Jh0b243AWuSYRf3dn7HVeFQ9Q==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
