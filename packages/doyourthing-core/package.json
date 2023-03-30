@@ -26,7 +26,7 @@
 		"autoprefixer": "10.4.14",
 		"chalk": "5.2.0",
 		"esbuild": "0.17.14",
-		"esbuild-node-externals": "1.6.0",
+		"esbuild-node-externals": "1.7.0",
 		"esbuild-plugin-external-global": "1.0.1",
 		"eslint": "8.37.0",
 		"eslint-config-doyourthing": "*",
