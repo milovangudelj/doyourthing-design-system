@@ -29,7 +29,7 @@
 		"@storybook/react": "7.0.0-rc.10",
 		"@storybook/react-vite": "7.0.0-rc.10",
 		"@storybook/react-webpack5": "7.0.0-rc.10",
-		"@storybook/testing-library": "0.0.14--canary.30.5f44d14.0",
+		"@storybook/testing-library": "0.0.14-next.2",
 		"@storybook/theming": "7.0.0-rc.10",
 		"@tailwindcss/forms": "0.5.3",
 		"@tsconfig/recommended": "1.0.2",
