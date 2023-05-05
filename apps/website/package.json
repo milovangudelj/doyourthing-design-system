@@ -11,7 +11,7 @@
 		"nodemod:remove": "find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' +"
 	},
 	"dependencies": {
-		"next": "13.3.4",
+		"next": "13.4.0",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"@doyourthing/core": "*"
