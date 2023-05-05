@@ -30,7 +30,7 @@
 	"devDependencies": {
 		"@doyourthing/tsconfig": "*",
 		"@types/react": "18.2.5",
-		"@types/react-dom": "18.2.3",
+		"@types/react-dom": "18.2.4",
 		"chalk": "5.2.0",
 		"esbuild": "0.17.18",
 		"eslint": "8.39.0",
