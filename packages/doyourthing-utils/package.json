@@ -29,8 +29,8 @@
 	},
 	"devDependencies": {
 		"@doyourthing/tsconfig": "*",
-		"@types/react": "18.2.11",
-		"@types/react-dom": "18.2.4",
+		"@types/react": "18.2.12",
+		"@types/react-dom": "18.2.5",
 		"chalk": "5.2.0",
 		"esbuild": "0.18.1",
 		"eslint": "8.42.0",
