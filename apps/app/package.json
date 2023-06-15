@@ -13,7 +13,7 @@
 	"dependencies": {
 		"@doyourthing/core": "*",
 		"@doyourthing/utils": "*",
-		"next": "13.4.5",
+		"next": "13.4.6",
 		"react": "18.2.0",
 		"react-dom": "18.2.0"
 	},
@@ -23,7 +23,7 @@
 		"@types/react-dom": "18.2.5",
 		"autoprefixer": "10.4.14",
 		"eslint": "8.42.0",
-		"eslint-config-next": "13.4.5",
+		"eslint-config-next": "13.4.6",
 		"postcss": "8.4.24",
 		"tailwindcss": "3.3.2",
 		"typescript": "5.1.3"
