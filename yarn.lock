@@ -6199,8 +6199,6 @@ escodegen@^2.0.0:
 
 eslint-config-next@13.4.6, eslint-config-next@^13.4.5:
   version "13.4.6"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-13.4.6.tgz#ccccf5dad45b23a56418d66caad5339116297308"
-  integrity sha512-nlv4FYish1RYYHILbQwM5/rD37cOvEqtMfDjtQCYbXdE2O3MggqHu2q6IDeLE2Z6u8ZJyNPgWOA6OimWcxj3qw==
   dependencies:
     "@next/eslint-plugin-next" "13.4.6"
     "@rushstack/eslint-patch" "^1.1.3"
