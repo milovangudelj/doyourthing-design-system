@@ -24,7 +24,7 @@
 		"@types/react": "18.2.14",
 		"@types/react-dom": "18.2.6",
 		"autoprefixer": "10.4.14",
-		"chalk": "5.2.0",
+		"chalk": "5.3.0",
 		"esbuild": "0.18.10",
 		"esbuild-node-externals": "1.8.0",
 		"esbuild-plugin-external-global": "1.0.1",
