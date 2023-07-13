@@ -42,7 +42,7 @@
 		"esbuild": "0.18.12",
 		"next": "13.4.9",
 		"phosphor-react": "1.4.1",
-		"postcss": "8.4.25",
+		"postcss": "8.4.26",
 		"prettier": "3.0.0",
 		"prettier-plugin-tailwindcss": "0.4.0",
 		"react": "18.2.0",
