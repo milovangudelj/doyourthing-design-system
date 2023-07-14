@@ -6230,8 +6230,6 @@ escodegen@^2.0.0:
 
 eslint-config-next@13.4.10, eslint-config-next@^13.4.9:
   version "13.4.10"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-13.4.10.tgz#59eaa37c805337972351b9920b1c28a79a14173e"
-  integrity sha512-+JjcM6lQmFR5Mw0ORm9o1CR29+z/uajgSfYAPEGIBxOhTHBgCMs7ysuwi72o7LkMmA8E3N7/h09pSGZxs0s85g==
   dependencies:
     "@next/eslint-plugin-next" "13.4.10"
     "@rushstack/eslint-patch" "^1.1.3"
