@@ -30,7 +30,7 @@
 		"esbuild-plugin-external-global": "1.0.1",
 		"eslint": "8.48.0",
 		"eslint-config-doyourthing": "*",
-		"postcss": "8.4.28",
+		"postcss": "8.4.29",
 		"rimraf": "5.0.1",
 		"tailwindcss": "3.3.3",
 		"typescript": "5.2.2"
