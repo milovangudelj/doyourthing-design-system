@@ -28,7 +28,7 @@
 		"esbuild": "0.19.9",
 		"esbuild-node-externals": "1.11.0",
 		"esbuild-plugin-external-global": "1.0.1",
-		"eslint": "8.55.0",
+		"eslint": "8.56.0",
 		"eslint-config-doyourthing": "*",
 		"postcss": "8.4.32",
 		"rimraf": "5.0.5",
