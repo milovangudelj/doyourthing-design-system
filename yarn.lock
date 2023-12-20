@@ -6126,10 +6126,10 @@ es6-object-assign@^1.1.0:
   resolved "https://registry.yarnpkg.com/es6-object-assign/-/es6-object-assign-1.1.0.tgz#c2c3582656247c39ea107cb1e6652b6f9f24523c"
   integrity sha512-MEl9uirslVwqQU369iHNWZXsI8yaZYGg/D65aOgZkeyFJwHYSxilf7rQzXKI7DdDuBPrBXbfk3sl9hJhmd5AUw==
 
-esbuild-node-externals@1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/esbuild-node-externals/-/esbuild-node-externals-1.11.0.tgz#776a08213d79fc0d37a8996d906bd3b0adca9463"
-  integrity sha512-ceISJR4U9ejE5ZShoD9HTHO0ClZ8Va7gkkBgejjYMo6/Kn7YDEYvt7YSiLgxor4xb47O7PTpgSoRNtRlV9WXKw==
+esbuild-node-externals@1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/esbuild-node-externals/-/esbuild-node-externals-1.12.0.tgz#9ae364f332f7ca59cd5f7d6b888946ce56a5e496"
+  integrity sha512-0rQM4N9QZwnLetzkUCOHj7Dj+YkD2IlHJIO/+3bb/AOAyDPG4D4tSTdli4QjrXRfPIffS5zAUrhxSbeyqmXhAg==
   dependencies:
     find-up "^5.0.0"
     tslib "^2.4.1"
