@@ -3260,10 +3260,10 @@
   resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.5.2.tgz#db7257d727c891905947bd1c1a99da20e03c2ebd"
   integrity sha512-YAh82Wh4TIrxYLmfGcixwD18oIjyC1pFQC2Y01F2lzV2HTMiYrI0nze0FD0ocB//CKS/7jIUgae+adPqxK5yCQ==
 
-"@tsconfig/recommended@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@tsconfig/recommended/-/recommended-1.0.3.tgz#742540ba9170897a44097e838bca411abf56ccd2"
-  integrity sha512-+jby/Guq9H8O7NWgCv6X8VAiQE8Dr/nccsCtL74xyHKhu2Knu5EAKmOZj3nLCnLm1KooUzKY+5DsnGVqhM8/wQ==
+"@tsconfig/recommended@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@tsconfig/recommended/-/recommended-1.0.4.tgz#6dd14f1c240124d8b2e9e2e084010ace728d857a"
+  integrity sha512-7RfsHlJYsqASGpV7R7zJ72baBBoqvbTj9dD4SHYSeLSMkMjSUhi15SZQK/7GQPCAmOhEoEC87HneaXihVXF6YA==
 
 "@types/aria-query@^5.0.1":
   version "5.0.1"
