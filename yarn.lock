@@ -1655,12 +1655,7 @@
     human-id "^1.0.2"
     prettier "^2.7.1"
 
-"@emotion/use-insertion-effect-with-fallbacks@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@emotion/use-insertion-effect-with-fallbacks/-/use-insertion-effect-with-fallbacks-1.0.0.tgz"
-  integrity sha512-1eEgUGmkaljiBnRMTdksDV1W4kUnmwgp7X9G8B++9GYwl1lUdqSndSriIrTJ0N7LQaoauY9JJ2yhiOYK5+NI4A==
-
-"@emotion/use-insertion-effect-with-fallbacks@^1.0.1":
+"@emotion/use-insertion-effect-with-fallbacks@^1.0.0", "@emotion/use-insertion-effect-with-fallbacks@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@emotion/use-insertion-effect-with-fallbacks/-/use-insertion-effect-with-fallbacks-1.0.1.tgz#08de79f54eb3406f9daaf77c76e35313da963963"
   integrity sha512-jT/qyKZ9rzLErtrjGgdkMBn2OP8wl0G3sQlBb3YPryvKHsjvINUhVaPFfP+fpBcOkmrVOVEEHQFJ7nbj2TH2gw==
@@ -2919,7 +2914,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@8.0.0", "@storybook/theming@^8.0.0":
+"@storybook/theming@8.0.0":
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.0.0.tgz#9f104bb5c3d67386f6b5d8737d7e6a7a5b9a0125"
   integrity sha512-Yu6ybemarPN3RBdsljtvpEVNqnqG1YxDLOmkzl1MFtJ1uA5Zd5mTMjc37iD0WDvLOk8mc1HmEqB5+fDrX0U4Vw==
@@ -2929,10 +2924,10 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@8.2.8", "@storybook/theming@^8.2.8":
-  version "8.2.8"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.2.8.tgz#ceddb44a770f93ffef9bab2d1616e89b7f6ccbde"
-  integrity sha512-jt5oUO82LN3z5aygNdHucBZcErSicIAwzhR5Kz9E/C9wUbhyZhbWsWyhpZaytu8LJUj2YWAIPS8kq/jGx+qLZA==
+"@storybook/theming@8.2.9", "@storybook/theming@^8.0.0", "@storybook/theming@^8.2.8":
+  version "8.2.9"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-8.2.9.tgz#6eb066f8957272c0bcb0078a8a9bc378ca9311d3"
+  integrity sha512-OL0NFvowPX85N5zIYdgeKKaFm7V4Vgtci093vL3cDZT13LGH6GuEzJKkUFGuUGNPFlJc+EgTj0o6PYKrOLyQ6w==
 
 "@storybook/types@7.6.17":
   version "7.6.17"
