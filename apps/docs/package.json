@@ -40,7 +40,7 @@
 		"chalk": "5.3.0",
 		"classnames": "2.5.1",
 		"esbuild": "0.23.1",
-		"next": "14.2.12",
+		"next": "14.2.13",
 		"phosphor-react": "1.4.1",
 		"postcss": "8.4.47",
 		"prettier": "3.3.3",
