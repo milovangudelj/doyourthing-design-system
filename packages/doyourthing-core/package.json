@@ -32,7 +32,7 @@
 		"eslint-config-doyourthing": "*",
 		"postcss": "8.4.47",
 		"rimraf": "6.0.1",
-		"tailwindcss": "3.4.13",
+		"tailwindcss": "3.4.14",
 		"typescript": "5.6.3"
 	},
 	"publishConfig": {
