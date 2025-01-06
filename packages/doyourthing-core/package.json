@@ -21,7 +21,7 @@
 	},
 	"devDependencies": {
 		"@doyourthing/tsconfig": "*",
-		"@types/react": "19.0.2",
+		"@types/react": "19.0.3",
 		"@types/react-dom": "19.0.2",
 		"autoprefixer": "10.4.20",
 		"chalk": "5.4.1",
