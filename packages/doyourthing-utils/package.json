@@ -20,7 +20,7 @@
 		"nodemod:remove": "find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' +"
 	},
 	"dependencies": {
-		"@tailwindcss/forms": "^0.5.3",
+		"@tailwindcss/forms": "^0.5.10",
 		"classnames": "^2.3.2",
 		"next": "^15.0.2",
 		"phosphor-react": "^1.4.1",
