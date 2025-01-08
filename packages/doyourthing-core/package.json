@@ -42,7 +42,7 @@
 	"dependencies": {
 		"@doyourthing/utils": "*",
 		"classnames": "^2.3.2",
-		"next": "^15.0.2",
+		"next": "^15.1.4",
 		"phosphor-react": "^1.4.1",
 		"react": "19.0.0",
 		"react-dom": "^19.0.0"

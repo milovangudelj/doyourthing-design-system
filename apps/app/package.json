@@ -13,7 +13,7 @@
 	"dependencies": {
 		"@doyourthing/core": "*",
 		"@doyourthing/utils": "*",
-		"next": "15.1.3",
+		"next": "15.1.4",
 		"react": "19.0.0",
 		"react-dom": "19.0.0"
 	},
