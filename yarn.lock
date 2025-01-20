@@ -4274,6 +4274,8 @@ escape-string-regexp@^4.0.0:
 
 eslint-config-next@15.1.5, eslint-config-next@^15.1.4:
   version "15.1.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-15.1.5.tgz#15b6cdd2469c7bb69af8d832bf6a10224d19c397"
+  integrity sha512-Awm7iUJY8toOR+fU8yTxZnA7/LyOGUGOd6cENCuDfJ3gucHOSmLdOSGJ4u+nlrs8p5qXemua42bZmq+uOzxl6Q==
   dependencies:
     "@next/eslint-plugin-next" "15.1.5"
     "@rushstack/eslint-patch" "^1.10.3"
@@ -8460,10 +8462,10 @@ uuid@^9.0.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
   integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
-vite@6.0.7:
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-6.0.7.tgz#f0f8c120733b04af52b4a1e3e7cb54eb851a799b"
-  integrity sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==
+vite@6.0.9:
+  version "6.0.9"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-6.0.9.tgz#0a830b767ef7aa762360b56bdef955c1395dc1ee"
+  integrity sha512-MSgUxHcaXLtnBPktkbUSoQUANApKYuxZ6DrbVENlIorbhL2dZydTLaZ01tjUoE3szeFzlFk9ANOKk0xurh4MKA==
   dependencies:
     esbuild "^0.24.2"
     postcss "^8.4.49"
