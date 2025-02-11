@@ -33,7 +33,7 @@
 		"@types/react-dom": "19.0.3",
 		"chalk": "5.4.1",
 		"esbuild": "0.25.0",
-		"eslint": "9.20.0",
+		"eslint": "9.20.1",
 		"eslint-config-doyourthing": "*",
 		"rimraf": "6.0.1",
 		"tailwindcss": "4.0.6",
