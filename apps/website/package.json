@@ -17,7 +17,7 @@
 		"@doyourthing/core": "*"
 	},
 	"devDependencies": {
-		"@types/node": "22.13.5",
+		"@types/node": "22.13.6",
 		"@types/react": "19.0.10",
 		"@types/react-dom": "19.0.4",
 		"eslint": "9.21.0",
