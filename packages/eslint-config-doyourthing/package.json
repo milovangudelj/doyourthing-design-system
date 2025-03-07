@@ -9,7 +9,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"eslint-config-next": "^15.1.7",
-		"eslint-config-prettier": "^10.0.0",
+		"eslint-config-prettier": "^10.1.0",
 		"eslint-plugin-react": "7.37.4",
 		"eslint-config-turbo": "latest"
 	},
