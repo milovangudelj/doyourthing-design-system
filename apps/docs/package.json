@@ -52,7 +52,7 @@
 		"storybook-dark-mode": "4.0.2",
 		"tailwindcss": "4.0.11",
 		"typescript": "5.8.2",
-		"vite": "6.2.0"
+		"vite": "6.2.1"
 	},
 	"resolutions": {
 		"webpack": "^5.94.0"
