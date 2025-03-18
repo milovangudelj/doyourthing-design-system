@@ -11,7 +11,7 @@
 		"nodemod:remove": "find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' +"
 	},
 	"dependencies": {
-		"next": "15.2.2",
+		"next": "15.2.3",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"@doyourthing/core": "*"
@@ -21,7 +21,7 @@
 		"@types/react": "19.0.11",
 		"@types/react-dom": "19.0.4",
 		"eslint": "9.22.0",
-		"eslint-config-next": "15.2.2",
+		"eslint-config-next": "15.2.3",
 		"typescript": "5.8.2"
 	}
 }
