@@ -20,7 +20,7 @@
 	"devDependencies": {
 		"@types/node": "22.13.17",
 		"@types/react": "19.1.0",
-		"@types/react-dom": "19.1.0",
+		"@types/react-dom": "19.1.1",
 		"autoprefixer": "10.4.21",
 		"eslint": "9.23.0",
 		"eslint-config-next": "15.2.4",
